@@ -14,7 +14,7 @@ url: 'https://www.rubenabreu.me',
 baseUrl: '/datasolutions/',
 organizationName: 'antiparticle25',
 projectName: 'datasolutions',
-
+deploymentBranch: 'gh-pages',
 onBrokenLinks: 'throw',
 onBrokenMarkdownLinks: 'warn',
 
