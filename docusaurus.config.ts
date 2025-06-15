@@ -15,6 +15,7 @@ baseUrl: '/datasolutions/',
 organizationName: 'antiparticle25',
 projectName: 'datasolutions',
 deploymentBranch: 'gh-pages',
+trailingSlash: false,
 onBrokenLinks: 'throw',
 onBrokenMarkdownLinks: 'warn',
 
