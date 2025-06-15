@@ -1,0 +1,106 @@
+/**
+ * Any CSS included here will be global. The classic template
+ * bundles Infima by default. Infima is a CSS framework designed to
+ * work well for content-centric websites.
+ */
+
+/* You can override the default Infima variables here. */
+:root {
+  --ifm-color-primary: #2e8555;
+  --ifm-color-primary-dark: #29784c;
+  --ifm-color-primary-darker: #277148;
+  --ifm-color-primary-darkest: #205d3b;
+  --ifm-color-primary-light: #33925d;
+  --ifm-color-primary-lighter: #359962;
+  --ifm-color-primary-lightest: #3cad6e;
+  --ifm-code-font-size: 95%;
+  --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.1);
+}
+
+/* For readability concerns, you should choose a lighter palette in dark mode. */
+[data-theme='dark'] {
+  --ifm-color-primary: #25c2a0;
+  --ifm-color-primary-dark: #21af90;
+  --ifm-color-primary-darker: #1fa588;
+  --ifm-color-primary-darkest: #1a8870;
+  --ifm-color-primary-light: #29d5b0;
+  --ifm-color-primary-lighter: #32d8b4;
+  --ifm-color-primary-lightest: #4fddbf;
+  --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.3);
+}
+:root {
+  --ifm-font-size-base: 17px;
+  --ifm-line-height-base: 1.7;
+}
+
+/* tighter sidebar */
+.docSidebarContainer {
+  --doc-sidebar-width: 220px;
+}
+
+/* gradient navbar */
+.navbar {
+  background: linear-gradient(to right, #007ab3 40%, #003366 100%);
+  color: white;
+}
+
+.navbar a,
+.navbar__title,
+.navbar__item {
+  color: white !important;
+}
+
+
+
+/* root page: hide prev link */
+[data-doc-id="overview"] .pagination-nav__link--prev {
+  display: none;
+}
+
+.tech-badge-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  margin-top: 1rem;
+}
+
+.tech-badge {
+  background-color: #f0f0f0;
+  border-radius: 999px;
+  padding: 0.4rem 0.9rem;
+  font-size: 0.85rem;
+}
+
+/* put this in src/css/custom.css  — or inline <style> in home.md */
+
+/* HOME page only — drop the [data-doc-id="home"] qualifier if you want this everywhere */
+
+.footer {
+  font-size: 0.75rem !important;
+  padding-top: 0.4rem !important;
+  padding-bottom: 0.4rem !important;
+  min-height: unset !important;
+}
+
+.footer__bottom {
+  padding: 0.2rem 0 !important;
+}
+
+
+
+:root {
+  --ifm-color-primary: #007acc; /* your preferred blue */
+}
+
+.menu__link--active,
+.menu__link--active:not(.menu__link--sublist) {
+  color: var(--ifm-color-primary) !important;
+  background-color: rgba(31, 75, 165, 0.1) !important; /* subtle blue highlight */
+  border-left: 2px solid var(--ifm-color-primary) !important;
+}
+
+
+
+
+
+
