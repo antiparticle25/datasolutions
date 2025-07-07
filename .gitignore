@@ -21,3 +21,6 @@ yarn-error.log*
 datasolutions/
 gds_local_copy/
 static/gds_local_copy/
+datasolutions/
+gds_local_copy/
+static/gds_local_copy/
