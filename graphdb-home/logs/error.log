@@ -1,0 +1,18 @@
+[ERROR] 2025-07-07 07:16:48,792 [main | c.o.l.LicenseRegistry] License could not be loaded: No license was set
+[ERROR] 2025-07-07 07:16:48,793 [main | c.o.l.LicenseRegistry] License can be set in one of the following ways (in order of preference):
+- System or config property 'graphdb.license.file'
+- File 'graphdb.license' in config directory (/opt/graphdb/home/conf)
+- Set through Workbench
+Please refer to the documentation for more information on how to set the license.
+[ERROR] 2025-07-07 07:19:21,496 [http-nio-7200-exec-1 | c.o.l.LicenseRegistry] License could not be loaded: No license was set
+[ERROR] 2025-07-07 07:19:21,497 [http-nio-7200-exec-1 | c.o.l.LicenseRegistry] License can be set in one of the following ways (in order of preference):
+- System or config property 'graphdb.license.file'
+- File 'graphdb.license' in config directory (/opt/graphdb/home/conf)
+- Set through Workbench
+Please refer to the documentation for more information on how to set the license.
+[ERROR] 2025-07-07 07:21:45,169 [http-nio-7200-exec-9 | c.o.l.LicenseRegistry] License could not be loaded: No license was set
+[ERROR] 2025-07-07 07:21:45,169 [http-nio-7200-exec-9 | c.o.l.LicenseRegistry] License can be set in one of the following ways (in order of preference):
+- System or config property 'graphdb.license.file'
+- File 'graphdb.license' in config directory (/opt/graphdb/home/conf)
+- Set through Workbench
+Please refer to the documentation for more information on how to set the license.

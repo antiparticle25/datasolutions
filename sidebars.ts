@@ -50,6 +50,15 @@ const sidebars: SidebarsConfig = {
         'mimic-onco/index',
       ],
     },
+    {
+      type: 'category',
+      label: 'Integrative Database',
+      collapsed: true,
+      items: [
+        'graphdb/index',
+        'graphdb/examples',
+      ],
+    }
   ],
 };
 
